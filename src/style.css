@@ -5,12 +5,12 @@
 }
 
 body {
-  margin: 50px 0;
+  margin: 50px 0 0;
   background: #fcfcfc;
 }
 
 h2 {
-  margin-top: 100px;
+  margin-top: 120px;
   font-size: 20px;
   margin-left: 100px;
   font-family: "roboto", sans-serif;
@@ -26,11 +26,11 @@ h1 {
 
 h3 {
   text-align: center;
-  padding: 30px 150px;
+  padding: 30px 150px 10px;
   font-size: 16px;
   opacity: 0.7;
   font-family: "roboto", sans-serif;
-  margin: 50px 0 30px;
+  margin: 50px 0 20px;
 }
 
 footer {
@@ -40,7 +40,6 @@ footer {
   font-size: 20px;
   background: var(--primary-color);
   bottom: 0;
-  position: fixed;
   width: 100%;
 }
 
@@ -55,6 +54,24 @@ a:hover {
   transition: 2ms ease-in-out;
 }
 
+.navbar {
+  padding: 10px 50px;
+}
+
+.navbar-brand:hover {
+  background-color: var(--primary-color);
+}
+
+.nav-link {
+  color: var(--secondary-color);
+  text-align: right;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  background-color: var(--primary-color);
+}
+
 .col-sm-4 {
   display: flex;
   justify-content: space-around;
@@ -65,15 +82,17 @@ a:hover {
   font-weight: 400;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
+.text-emphasis {
+  font-weight: 800;
+  color: black;
+  opacity: 1;
+  letter-spacing: 0.1rem;
 }
 
-.footer-brand {
-  color: var(--secondary-color);
-  font-family: "lobster", sans-serif;
-  font-size: 18px;
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  letter-spacing: 10px;
 }
 
 .contact-icon {
@@ -83,7 +102,7 @@ a:hover {
 .learn-more-link {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .primary-link {
@@ -122,8 +141,8 @@ a:hover {
     padding: 10px;
   }
 
-  .footer-brand {
-    font-size: 16px;
+  .navbar {
+    padding: 10px;
   }
 
   .contact-icon {
@@ -133,5 +152,11 @@ a:hover {
 
   .pronouns {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .homepage-image {
+    max-height: 600px;
   }
 }

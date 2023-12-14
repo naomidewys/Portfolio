@@ -34,13 +34,50 @@
     <title>Naomi De Wys Portfolio</title>
   </head>
   <body>
+    <nav
+      class="navbar fixed-top navbar-expand-lg"
+      style="background-color: var(--primary-color)"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img
+            src="/images/portfolio-logo.png"
+            alt="portfolio logo"
+            class="img-fluid rounded"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="/projects.html">Projects</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <h2>Hello! My name is</h2>
     <h1>Naomi De Wys.<span class="pronouns"> (she/her)</span></h1>
     <h3>
       I'm a junior front-end developer from Australia with an interest in
       creating accessible and sustainable products. This portfolio is a
       collection of my completed work through immersive workshops and personal
-      projects.
+      projects as I embark on my coding journey.
+      <br />
+      <br />
+      As my <span class="text-emphasis">skills grow</span>, so will
+      <span class="text-emphasis">my portfolio</span>.
     </h3>
     <div class="learn-more-link">
       <a href="/about.html" class="primary-link">Learn more</a>
@@ -51,28 +88,27 @@
           <img
             src="/images/basic-landing-page.png"
             alt="legend of zelda landing page"
-            class="img-fluid rounded shadow p-2"
+            class="img-fluid rounded shadow p-2 homepage-image"
           />
         </div>
         <div class="col-sm-4">
           <img
             src="images/coding.jpg"
             alt="coding laptop with flowers"
-            class="img-fluid rounded shadow p-2"
+            class="img-fluid rounded shadow p-2 homepage-image"
           />
         </div>
         <div class="col-sm-4">
           <img
             src="/images/weather-app.png"
             alt="weather-app"
-            class="img-fluid rounded shadow p-2"
+            class="img-fluid rounded shadow p-2 homepage-image"
           />
         </div>
       </div>
     </div>
     <footer>
       <div class="footer-container">
-        <span class="footer-brand">Naomi De Wys, front-end developer.</span>
         <span class="footer-icons">
           <i
             class="fa-regular fa-envelope contact-icon"
