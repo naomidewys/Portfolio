@@ -30,7 +30,7 @@ h3 {
   font-size: 16px;
   opacity: 0.7;
   font-family: "roboto", sans-serif;
-  margin: 50px 0;
+  margin: 50px 0 30px;
 }
 
 footer {
@@ -53,6 +53,11 @@ a:hover {
   background: var(--secondary-color);
   color: var(--primary-color);
   transition: 2ms ease-in-out;
+}
+
+.col-sm-4 {
+  display: flex;
+  justify-content: space-around;
 }
 
 .pronouns {
@@ -78,6 +83,7 @@ a:hover {
 .learn-more-link {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .primary-link {
@@ -88,6 +94,10 @@ a:hover {
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 30px;
+}
+
+.homepage-container {
+  padding: 50px 30px;
 }
 
 @media (max-width: 576px) {
