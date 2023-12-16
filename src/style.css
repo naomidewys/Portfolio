@@ -1,173 +1,140 @@
 :root {
-  --primary-color: #5c715e;
-  --secondary-color: #fcfcfc;
+  --primary-color: #927fbf;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin: 50px 0 0;
-  background: #fcfcfc;
-}
-
-h2 {
-  margin-top: 120px;
-  font-size: 20px;
-  margin-left: 100px;
-  font-family: "roboto", sans-serif;
-}
-
 h1 {
-  font-size: 80px;
-  font-weight: 700;
-  margin-left: 100px;
+  font-size: 60px;
+  margin: 120px 0 40px 120px;
   color: var(--primary-color);
-  font-family: "lobster", sans-serif;
-}
-
-h3 {
-  text-align: center;
-  padding: 30px 150px 0;
-  font-size: 16px;
-  opacity: 0.7;
-  font-family: "roboto", sans-serif;
-  margin: 50px 0 0;
+  background: white;
+  padding: 0 0 15px 20px;
+  border: 3px solid var(--primary-color);
+  font-family: "luckiest guy", cursive;
 }
 
 p {
-  font-size: 16px;
-  opacity: 0.7;
+  font-size: 18px;
+  line-height: 2;
   font-family: "roboto", sans-serif;
 }
 
 footer {
-  margin: 50px 0 0;
-  padding: 20px 50px;
-  text-align: center;
-  font-size: 20px;
   background: var(--primary-color);
   bottom: 0;
   width: 100%;
-}
-
-a {
-  font-family: "roboto", sans-serif;
-}
-
-a:hover {
-  border: 1px solid var(--primary-color);
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  transition: 2ms ease-in-out;
-}
-
-.page-title {
-  margin-top: 152px;
+  padding: 20px 50px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .navbar {
   padding: 10px 50px;
 }
 
-.navbar-brand:hover {
-  background-color: var(--primary-color);
-}
-
 .nav-link {
-  color: var(--secondary-color);
   text-align: right;
 }
 
 .nav-link:hover {
   text-decoration: underline;
-  background-color: var(--primary-color);
+  color: white;
 }
 
-.col-sm-4 {
-  display: flex;
-  justify-content: space-around;
+.greeting {
+  font-size: 30px;
+  color: black;
+  font-family: "roboto", sans-serif;
 }
 
 .pronouns {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
 }
 
-.text-emphasis {
+.introduction {
+  text-align: center;
+  padding: 0 200px;
+}
+
+.emphasize-text {
   font-weight: 800;
-  color: black;
-  opacity: 1;
   letter-spacing: 0.1rem;
+}
+
+.welcome-link {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 120px;
+}
+
+.primary-link {
+  text-align: center;
+  color: white;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "roboto", sans-serif;
+}
+
+.primary-link:hover {
+  border: 1px solid var(--primary-color);
+  color: black;
+  background: white;
+  transition: 2ms ease-in-out;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-evenly;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 }
 
-.contact-icon {
-  padding: 0 10px;
-}
-
-.learn-more-link {
+.col-sm-4 {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.primary-link {
-  background: var(--primary-color);
-  text-align: center;
-  color: var(--secondary-color);
-  box-shadow: var(--box-shadow);
-  text-decoration: none;
-  padding: 15px 30px;
-  border-radius: 30px;
-  margin-top: 30px;
-}
-
-.homepage-container {
-  padding: 50px 30px;
+  justify-content: space-evenly;
+  padding: 0 30px;
 }
 
 @media (max-width: 576px) {
-  body {
-    margin: 0;
-  }
-
-  h2 {
-    margin-left: 20px;
-  }
-
   h1 {
-    font-size: 50px;
-    margin-left: 20px;
+    margin-left: 30px;
+    font-size: 35px;
   }
 
-  h3 {
-    padding: 0 30px;
-  }
-
-  footer {
-    padding: 10px;
-  }
-
-  .navbar {
-    padding: 10px;
-  }
-
-  .contact-icon {
-    font-size: 18px;
-    padding: 0 5px;
+  .greeting {
+    font-size: 20px;
   }
 
   .pronouns {
     font-size: 16px;
   }
+
+  .introduction {
+    padding: 0 30px;
+  }
+
+  .col-sm-4 {
+    padding: 20px 30px;
+  }
 }
 
 @media (min-width: 992px) {
-  .homepage-image {
-    max-height: 600px;
+  h1 {
+    font-size: 80px;
+  }
+  .greeting {
+    font-size: 40px;
+  }
+
+  .pronouns {
+    font-size: 20px;
+  }
+
+  .col-sm-4 {
+    max-height: 700px;
   }
 }
