@@ -95,6 +95,12 @@ footer {
   letter-spacing: 0.1rem;
 }
 
+.row.experience {
+  display: flex;
+  justify-content: center;
+  padding: 0 150px;
+}
+
 .skill-icon {
   font-size: 60px;
   display: flex;
@@ -110,6 +116,27 @@ footer {
 .coming-soon {
   text-align: center;
   padding-top: 30px;
+}
+
+.experience.skill-icon {
+  font-size: 40px;
+}
+
+.experience.skill-name {
+  font-size: 16px;
+}
+
+.experience-heading {
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.experience-description {
+  text-align: center;
+}
+
+.certificate {
+  max-height: 600px;
 }
 
 .welcome-link {
@@ -136,6 +163,10 @@ footer {
   color: black;
   background: white;
   transition: 2ms ease-in-out;
+}
+
+.external-link {
+  color: var(--primary-color);
 }
 
 .footer-container {
@@ -187,5 +218,10 @@ footer {
 
   .col-sm-4 {
     max-height: 700px;
+  }
+
+  .coming-soon.experience {
+    padding: 50px 0 10px;
+    margin-top: 20px;
   }
 }
