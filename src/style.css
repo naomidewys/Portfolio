@@ -95,10 +95,26 @@ footer {
   letter-spacing: 0.1rem;
 }
 
+.about-description {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 80px;
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+}
+
 .row.experience {
   display: flex;
   justify-content: center;
-  padding: 0 150px;
+  padding: 0 100px;
 }
 
 .skill-icon {
@@ -202,6 +218,18 @@ footer {
   .col-sm-4 {
     padding: 20px 30px;
   }
+
+  .about-description {
+    padding: 20px;
+  }
+
+  .about-image {
+    padding-top: 60px;
+  }
+
+  .row.experience {
+    padding: 20px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -218,6 +246,10 @@ footer {
 
   .col-sm-4 {
     max-height: 700px;
+  }
+
+  .about-description {
+    padding: 40px 80px 40px 150px;
   }
 
   .coming-soon.experience {
