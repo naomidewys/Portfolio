@@ -231,6 +231,13 @@ footer {
     margin: 40px 0;
   }
 
+  p,
+  .about-content,
+  .experience-description,
+  .upcoming-projects {
+    font-size: 18px;
+  }
+
   .greeting {
     font-size: 20px;
   }
