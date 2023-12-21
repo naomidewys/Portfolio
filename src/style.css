@@ -84,12 +84,17 @@ footer {
 
 .subtitle {
   text-align: center;
-  margin: 50px 0 30px;
+  margin: 70px 0 30px;
+}
+
+.sub-subtitle {
+  text-align: center;
+  padding: 30px 0 4px;
 }
 
 .introduction {
   text-align: center;
-  padding: 0 200px;
+  padding: 0 60px;
 }
 
 .emphasize-text {
@@ -141,22 +146,26 @@ footer {
   margin-top: 20px;
 }
 
-.project-skills {
+.project-subtitle {
+  text-align: center;
+  font-size: 40px;
+}
+
+.project-content {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.additional-info {
   font-size: 16px;
 }
 
-.coming-soon {
-  text-align: center;
-  padding-top: 30px;
+.upcoming-projects {
+  font-size: 22px;
 }
 
 .experience.skill-icon {
   font-size: 40px;
-}
-
-.experience-heading {
-  text-align: center;
-  padding-bottom: 3px;
 }
 
 .experience-description {
@@ -201,6 +210,11 @@ footer {
   color: var(--primary-color);
 }
 
+.project-link {
+  display: flex;
+  justify-content: center;
+}
+
 .footer-container {
   display: flex;
   justify-content: space-evenly;
@@ -213,6 +227,10 @@ footer {
     font-size: 35px;
   }
 
+  h3.project-subtitle {
+    margin: 40px 0;
+  }
+
   .greeting {
     font-size: 20px;
   }
@@ -223,6 +241,10 @@ footer {
 
   .introduction {
     padding: 0 30px;
+  }
+
+  .project-subtitle {
+    font-size: 30px;
   }
 
   .about-description {
@@ -250,12 +272,11 @@ footer {
     font-size: 20px;
   }
 
-  .about-description {
-    padding: 40px 80px 40px 150px;
+  .introduction {
+    padding: 0 200px;
   }
 
-  .coming-soon.experience {
-    padding: 50px 0 10px;
-    margin-top: 20px;
+  .about-description {
+    padding: 40px 80px 40px 150px;
   }
 }
