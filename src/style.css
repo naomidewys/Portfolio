@@ -212,8 +212,17 @@ footer {
 
 .footer-container {
   display: flex;
-  justify-content: space-evenly;
-  letter-spacing: 5px;
+  justify-content: center;
+}
+
+.contact-icon {
+  font-size: 20px;
+  padding: 0 80px;
+}
+
+.contact-icon:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
 }
 
 @media (max-width: 576px) {
@@ -262,6 +271,11 @@ footer {
   .row.experience {
     padding: 20px;
   }
+
+  .contact-icon {
+    font-size: 18px;
+    padding: 0 40px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -282,5 +296,10 @@ footer {
 
   .about-description {
     padding: 40px 80px 40px 150px;
+  }
+
+  .contact-icon {
+    font-size: 25px;
+    padding: 0 150px;
   }
 }
