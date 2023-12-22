@@ -102,28 +102,6 @@ footer {
   letter-spacing: 0.1rem;
 }
 
-.about-description {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px 80px;
-}
-
-.about-content {
-  text-align: center;
-}
-
-.about-image {
-  display: flex;
-  justify-content: center;
-}
-
-.row.experience {
-  display: flex;
-  justify-content: center;
-  padding: 0 100px;
-}
-
 .skill-icon {
   font-size: 60px;
   display: flex;
@@ -146,9 +124,10 @@ footer {
   font-size: 40px;
 }
 
-.project-content {
+.about-content,
+.project-content,
+.experience-content {
   text-align: center;
-  padding: 0 30px;
 }
 
 .additional-info {
@@ -161,10 +140,6 @@ footer {
 
 .experience.skill-icon {
   font-size: 40px;
-}
-
-.experience-description {
-  text-align: center;
 }
 
 .certificate {
@@ -238,7 +213,6 @@ footer {
   p,
   .introduction,
   .about-content,
-  .experience-description,
   .upcoming-projects {
     font-size: 18px;
   }
@@ -258,18 +232,6 @@ footer {
 
   .project-subtitle {
     font-size: 30px;
-  }
-
-  .about-description {
-    padding: 20px;
-  }
-
-  .about-image {
-    padding-top: 60px;
-  }
-
-  .row.experience {
-    padding: 20px;
   }
 
   .contact-icon {
@@ -292,10 +254,6 @@ footer {
 
   .introduction {
     padding: 0 200px;
-  }
-
-  .about-description {
-    padding: 40px 80px 40px 150px;
   }
 
   .contact-icon {
