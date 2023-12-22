@@ -200,6 +200,14 @@ footer {
   text-decoration-color: white;
 }
 
+.col-sm-6 {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
 @media (max-width: 576px) {
   h1 {
     margin-left: 30px;
