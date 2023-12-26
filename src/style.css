@@ -4,7 +4,7 @@
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 100px;
   margin: 120px 0 40px 120px;
   color: var(--primary-color);
   background: white;
@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 70px;
   color: var(--primary-color);
   font-family: "luckiest guy", cursive;
   text-align: center;
@@ -22,10 +22,11 @@ h2 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 50px;
   font-family: "luckiest guy", cursive;
   text-decoration: underline;
   text-decoration-color: var(--primary-color);
+  text-align: center;
 }
 
 p {
@@ -33,10 +34,6 @@ p {
   line-height: 2;
   font-family: "roboto", sans-serif;
   text-align: center;
-}
-
-img {
-  width: auto;
 }
 
 ul {
@@ -99,9 +96,10 @@ footer {
 
 .row {
   flex-wrap: wrap;
+  margin: 0;
 }
 
-.col {
+.col-sm-6 {
   display: flex;
   justify-content: space-evenly;
 }
@@ -119,9 +117,14 @@ footer {
   padding-top: 20px;
 }
 
-.sub-subtitle {
-  text-align: center;
-  padding: 30px 0 4px;
+.about-container {
+  padding: 0 60px;
+  margin: 40px 80px;
+}
+
+.experience-container {
+  margin: 0;
+  padding: 0;
 }
 
 .skill-icon {
@@ -129,7 +132,11 @@ footer {
   display: flex;
   justify-content: center;
   margin: 10px;
-  padding: 10px;
+  padding: 10px 40px;
+}
+
+.experience-content {
+  padding: 0 20px 0 40px;
 }
 
 .project-caption {
@@ -191,8 +198,8 @@ footer {
 }
 
 .contact-icon {
-  font-size: 20px;
-  padding: 0 80px;
+  font-size: 30px;
+  padding: 0 120px;
 }
 
 .contact-icon:hover {
@@ -201,69 +208,7 @@ footer {
 }
 
 @media (max-width: 576px) {
-  h1 {
-    margin-left: 30px;
-    font-size: 35px;
-  }
-
-  h3.project-subtitle {
-    margin: 40px 0;
-  }
-
-  p,
-  .introduction,
-  .about-content,
-  .upcoming-projects {
-    font-size: 18px;
-  }
-
-  .greeting {
-    font-size: 20px;
-  }
-
-  .pronouns {
-    font-size: 16px;
-  }
-
-  .introduction,
-  .contact-description {
-    padding: 0 30px;
-  }
-
-  .project-subtitle {
-    font-size: 30px;
-  }
-
-  .contact-icon {
-    font-size: 18px;
-    padding: 0 40px;
-  }
 }
 
 @media (min-width: 992px) {
-  h1 {
-    font-size: 100px;
-    margin-left: 100px;
-  }
-
-  h2 {
-    font-size: 70px;
-  }
-
-  .greeting {
-    font-size: 40px;
-  }
-
-  .pronouns {
-    font-size: 20px;
-  }
-
-  .introduction {
-    padding: 0 200px;
-  }
-
-  .contact-icon {
-    font-size: 25px;
-    padding: 0 150px;
-  }
 }
