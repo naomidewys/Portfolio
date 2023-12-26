@@ -96,7 +96,7 @@ footer {
 
 .row {
   flex-wrap: wrap;
-  margin: 0;
+  margin: 40px;
 }
 
 .col-sm-6 {
@@ -135,26 +135,9 @@ footer {
   padding: 10px 40px;
 }
 
-.experience-content {
+.experience-content,
+.project-content {
   padding: 0 20px 0 40px;
-}
-
-.project-caption {
-  line-height: 1.5;
-  margin-top: 20px;
-}
-
-.project-subtitle {
-  text-align: center;
-  font-size: 40px;
-}
-
-.upcoming-projects {
-  font-size: 22px;
-}
-
-.experience.skill-icon {
-  font-size: 40px;
 }
 
 .welcome-link {
