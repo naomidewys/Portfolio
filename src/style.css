@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-  font-size: 70px;
+  font-size: 50px;
   color: var(--primary-color);
   font-family: "luckiest guy", cursive;
   text-align: center;
@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "luckiest guy", cursive;
   text-decoration: underline;
   text-decoration-color: var(--primary-color);
@@ -31,7 +31,7 @@ h3 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 2;
   font-family: "roboto", sans-serif;
   text-align: center;
@@ -65,7 +65,7 @@ footer {
 
 .nav-link {
   text-align: right;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -81,7 +81,7 @@ footer {
 }
 
 .pronouns {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .introduction {
@@ -115,7 +115,7 @@ footer {
 }
 
 .caption-info {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .solo-heading {
@@ -123,7 +123,7 @@ footer {
 }
 
 .skill-icon {
-  font-size: 40px;
+  font-size: 35px;
   display: flex;
   justify-content: center;
   margin: 5px 10px;
@@ -149,7 +149,7 @@ footer {
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   font-family: "roboto", sans-serif;
 }
@@ -278,10 +278,6 @@ footer {
 }
 
 @media (min-width: 992px) {
-  h1 {
-    font-size: 100px;
-  }
-
   .introduction {
     padding: 0 60px;
   }
