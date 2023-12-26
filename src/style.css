@@ -8,7 +8,7 @@ h1 {
   margin: 120px 0 40px 120px;
   color: var(--primary-color);
   background: white;
-  padding: 0 0 15px 20px;
+  padding: 0 0 15px 30px;
   border: 3px solid var(--primary-color);
   font-family: "luckiest guy", cursive;
 }
@@ -17,6 +17,8 @@ h2 {
   font-size: 50px;
   color: var(--primary-color);
   font-family: "luckiest guy", cursive;
+  text-align: center;
+  padding: 50px 0 30px;
 }
 
 h3 {
@@ -27,9 +29,14 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 2;
   font-family: "roboto", sans-serif;
+  text-align: center;
+}
+
+img {
+  width: auto;
 }
 
 ul {
@@ -38,6 +45,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
+  font-family: "roboto", sans-serif;
 }
 
 li {
@@ -59,7 +67,7 @@ footer {
 
 .nav-link {
   text-align: right;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -75,31 +83,45 @@ footer {
 }
 
 .pronouns {
-  font-size: 18px;
+  font-size: 25px;
+}
+
+.introduction {
+  text-align: center;
+  padding: 0 60px;
+  margin: 40px 80px;
+}
+
+.emphasize-text {
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+}
+
+.row {
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caption {
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+.caption-info {
+  font-size: 20px;
 }
 
 .solo-heading {
   padding-top: 20px;
 }
 
-.subtitle {
-  text-align: center;
-  margin: 70px 0 30px;
-}
-
 .sub-subtitle {
   text-align: center;
   padding: 30px 0 4px;
-}
-
-.introduction {
-  text-align: center;
-  padding: 0 60px;
-}
-
-.emphasize-text {
-  font-weight: 800;
-  letter-spacing: 0.1rem;
 }
 
 .skill-icon {
@@ -108,10 +130,6 @@ footer {
   justify-content: center;
   margin: 10px;
   padding: 10px;
-}
-
-.caption {
-  text-align: center;
 }
 
 .project-caption {
@@ -124,30 +142,12 @@ footer {
   font-size: 40px;
 }
 
-.about-content,
-.project-content,
-.experience-content {
-  text-align: center;
-}
-
-.additional-info {
-  font-size: 16px;
-}
-
 .upcoming-projects {
   font-size: 22px;
 }
 
 .experience.skill-icon {
   font-size: 40px;
-}
-
-.certificate {
-  max-height: 600px;
-}
-
-.project {
-  max-height: 600px;
 }
 
 .welcome-link {
@@ -164,7 +164,7 @@ footer {
   text-decoration: none;
   padding: 15px 30px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 600;
   font-family: "roboto", sans-serif;
 }
@@ -198,14 +198,6 @@ footer {
 .contact-icon:hover {
   text-decoration: underline;
   text-decoration-color: white;
-}
-
-.col-sm-6 {
-  padding: 0;
-}
-
-.row {
-  margin: 0;
 }
 
 @media (max-width: 576px) {
@@ -250,8 +242,14 @@ footer {
 
 @media (min-width: 992px) {
   h1 {
-    font-size: 80px;
+    font-size: 100px;
+    margin-left: 100px;
   }
+
+  h2 {
+    font-size: 70px;
+  }
+
   .greeting {
     font-size: 40px;
   }
