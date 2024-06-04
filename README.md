@@ -1,4 +1,4 @@
-<h1>README - Portfolio</h1>
+<h1>README - Practice Project: Portfolio</h1>
 <h3>Intro</h3>
 This is a multi-page portfolio showcasing my start in learning tech. It was the final project for <a href="https://shecodes.io" target="_blank">SheCodes Responsive</a>, a five-week course
 teaching responsive design. The requirements for this project was to create a multi-page portfolio with the following sections: Home, About, Projects, and Contact.
